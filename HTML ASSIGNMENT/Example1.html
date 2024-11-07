@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First form</title>
+    <style>
+        table{
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding = 5px cellspacing="0">
+        <tr>
+            <td rowspan="2"><a href="">Home</a></td>
+            <td rowspan="2"><a href="">About</a></td>
+            <td rowspan="2"><a href="">Contact</a></td>
+            <td rowspan="2"><a href="">Help</a></td>
+            <td rowspan="2"><a href="">Store</a></td>
+            <td colspan="2" style="background-color: red; color: black;"><a href="">Add to Cart</a></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: red; color: black;"><a href="">Login</a></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+
+        <tr>
+            <td colspan="7" >
+                <img src="img1.png" alt="pic" height="600px" width="100%">
+            </td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>-->
+            </tr> 
+            <tr>
+                <td colspan="7" style="background-color: pink;"><a href=""> Contact us</a></td>
+            </tr>
+            <tr>
+                <td colspan="7"> <img src="img2.png" alt="" width="100%" height="300px"></td>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+            </tr>
+
+            <tr>
+                <td colspan="3" style="background-color: aqua; color: black; "> First name : <input type="text" placeholder="Enter your name" style="border: none;"></td>
+                <td colspan="4" style="background-color: aqua; color: black; "> Last  name : <input type="text" placeholder="Enter your Last name" style="border: none;"></td>
+            </tr>
+
+           <tr>
+            <td colspan="3" style="background-color: aqua; color: black; " > Email : <input type="email" placeholder="Enter youe email" style="border: none;"></td>
+            <td colspan="4" style="background-color: aqua; color: black; " > Phone-number : <input type="number" maxlength="10" placeholder="Enter Phone-number" style="border: none;"></td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="background-color: aqua; color: black;"> City :
+                <select id="city" name="city">
+                    <option value="Bhavnagar">Bhavnagar</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Vadodara">Vadodara</option>
+            </td>
+            <td colspan="4" style="background-color: aqua; color: black;">
+                Gender : <input type="radio" name="Gender" id="">Male 
+                        <input type="radio" name="Gender" id="">Female
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74842920963!2d72.41492881144384!3d23.020474101422135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1729569928700!5m2!1sen!2sin" width="650" height="500" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </td>
+            <td colspan="4">
+                <iframe width="850" height="500" src="https://www.youtube.com/embed/x-gyz4TIN_Q?si=dhOU_GbXTxDjBQ0F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
